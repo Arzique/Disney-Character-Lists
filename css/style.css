@@ -1,0 +1,128 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  background-image: url("../images/Background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  backdrop-filter: brightness(50%);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12pt;
+  color: white;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: darkblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar img {
+  float: left;
+  padding: 5px;
+}
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h1 {
+  color: white;
+  padding: 50px;
+  font-family: "Walter";
+  font-size: 600%;
+  font-weight: lighter;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+button {
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+}
+
+@font-face {
+  font-family: Marvel;
+  src: url("fonts/MarvelRegular-Dj83.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Sterilict;
+  src: url("fonts/Sterilict.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Waltograph;
+  src: url("fonts/NewWaltDisneyUi-8YdA.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Walter;
+  src: url("fonts/Walter-zrol.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
