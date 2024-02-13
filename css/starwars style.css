@@ -6,8 +6,8 @@ body {
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #541e1b;
-  background-image: url("../Star_Wars/images/Starwars-wallpaper.jpg");
+  background-color: black;
+  background-image: url("../StarWars/images/Starwars-wallpaper.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   backdrop-filter: brightness(70%);
@@ -24,7 +24,7 @@ nav {
 
 nav img {
   float: left;
-  padding: 6px 0px 0px 5px;
+  padding: 5px 0px 0px 5px;
   height: 42px;
 }
 

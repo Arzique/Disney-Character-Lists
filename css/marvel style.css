@@ -7,10 +7,6 @@ body {
   margin: 0px;
   padding: 0px;
   background-color: #541e1b;
-  background-image: url("../Marvel/images/marvel_background.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  backdrop-filter: brightness(70%);
   font-family: "Courier New", Courier, monospace;
   font-size: 12pt;
   color: white;
@@ -111,26 +107,24 @@ nav a:hover,
   border-radius: 0px 0px 10px 10px;
 }
 
-.banner #Marvel {
-  font-family: Sterilict;
-  color: red;
+.banner {
+  position: relative;
   text-align: center;
-  background-color: white;
-  border-radius: 15px;
-  width: 350px;
-  margin: auto;
-  margin-bottom: 75vh;
+  margin: 0px auto 45vh auto;
+  width: auto;
+  background-image: url("../Marvel/images/marvel_background.png");
+  background-size: cover;
+  overflow: hidden;
 }
 
-.banner #Marvel span {
+#Marvel {
   font-family: Marvel;
   font-weight: lighter;
-  font-size: 500%;
+  font-size: 400px;
   color: white;
-  background-color: red;
-  width: 350px;
-  height: 140px;
-  display: inline-block;
+  background: red;
+  mix-blend-mode: multiply;
+  line-height: 130%;
 }
 
 * {
