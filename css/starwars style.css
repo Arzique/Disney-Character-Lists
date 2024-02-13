@@ -1,0 +1,189 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #541e1b;
+  background-image: url("../Star_Wars/images/Starwars-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  backdrop-filter: brightness(70%);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12pt;
+  color: white;
+}
+
+nav {
+  overflow: hidden;
+  background-color: darkblue;
+  font-family: "Baloo";
+}
+
+nav img {
+  float: left;
+  padding: 6px 0px 0px 5px;
+  height: 42px;
+}
+
+nav a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-family: "Baloo";
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  margin: 0;
+}
+
+nav a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #393e8f;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 0px 10px 10px 10px;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content .marvel {
+  font-family: "Marvel";
+  font-size: 40px;
+  padding: 5px 0px 0px 0px;
+  border-radius: 0px 10px 0px 0px;
+}
+.dropdown-content .marvel:hover {
+  color: white;
+  background-color: red;
+}
+
+.dropdown-content .princess {
+  font-family: "Waltograph";
+  font-size: 33px;
+  padding: 5px 0px 0px 0px;
+}
+.dropdown-content .princess:hover {
+  color: white;
+  background-color: hotpink;
+}
+
+.dropdown-content .starwars {
+  font-family: "Star-jedi";
+  font-size: 23px;
+  padding: 0px 0px 5px 0px;
+}
+.dropdown-content .starwars:hover {
+  color: white;
+  background-color: black;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.banner #Starwars {
+  font-family: "Sterilict";
+  color: blue;
+  text-align: center;
+  background-color: white;
+  border-radius: 15px;
+  width: 350px;
+  margin: auto;
+  margin-bottom: 65vh;
+}
+
+.banner #Starwars span {
+  font-family: "Star-jedi";
+  font-weight: lighter;
+  font-size: 325%;
+  line-height: 90px;
+  color: gold;
+  background-color: rgb(39, 39, 39);
+  width: 350px;
+  height: 200px;
+  display: inline-block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+button {
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+}
+
+@font-face {
+  font-family: Marvel;
+  src: url("fonts/MarvelRegular-Dj83.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Sterilict;
+  src: url("fonts/Sterilict.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Waltograph;
+  src: url("fonts/NewWaltDisneyUi-8YdA.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Walter;
+  src: url("fonts/Walter-zrol.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Action-man;
+  src: url("fonts/Action_Man.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Baloo;
+  src: url("fonts/Baloo-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Star-jedi;
+  src: url("fonts/Starjedi.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
