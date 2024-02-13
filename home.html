@@ -6,8 +6,8 @@
 
   <body>
     <header>
-      <div class="navbar">
-        <img src="images/disney-logo-png-transparent.png" alt="disney logo" />
+      <nav>
+        <img src="images/disney_logo.svg" alt="disney logo" />
         <a href="https://www.wikipedia.org" target="_blank">Sources</a>
         <a href="Contact/contact.html">Contact Me!</a>
         <div class="dropdown">
@@ -15,16 +15,19 @@
             Categories<i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="Marvel/marvel.html">Marvel</a>
-            <a href="Princesses/princess.html">Princess</a>
-            <a href="StarWars/starwars.html">Star Wars</a>
+            <a href="Marvel/marvel.html" class="marvel">MARVEL</a>
+            <a href="Princesses/princess.html" class="princess">Princess</a>
+            <a href="StarWars/starwars.html" class="starwars">Star Wars</a>
           </div>
         </div>
-      </div>
+      </nav>
     </header>
 
     <main>
-      <h1>Disney<br />Character Lists</h1>
+      <div class="banner">
+        <h1 id="Disney">Disney<br />Character Lists</h1>
+      </div>
+
       <section class="options">
         <button id="Marvel">
           <a href="Marvel/marvel.html"
