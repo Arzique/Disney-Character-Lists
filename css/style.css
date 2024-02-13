@@ -6,7 +6,7 @@ body {
 body {
   margin: 0px;
   padding: 0px;
-  background-color: black;
+  background-color: #080838;
   background-image: url("../images/Background.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -16,18 +16,19 @@ body {
   color: white;
 }
 
-.navbar {
+nav {
   overflow: hidden;
   background-color: darkblue;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Baloo";
 }
 
-.navbar img {
+nav img {
   float: left;
-  padding: 5px;
+  padding: 6px 0px 0px 5px;
+  height: 37px;
 }
 
-.navbar a {
+nav a {
   float: right;
   font-size: 16px;
   color: white;
@@ -42,6 +43,7 @@ body {
 }
 
 .dropdown .dropbtn {
+  font-family: "Baloo";
   font-size: 16px;
   border: none;
   outline: none;
@@ -51,18 +53,19 @@ body {
   margin: 0;
 }
 
-.navbar a:hover,
+nav a:hover,
 .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #393e8f;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: whitesmoke;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  border-radius: 0px 10px 10px 10px;
 }
 
 .dropdown-content a {
@@ -71,21 +74,50 @@ body {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
+  text-align: center;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-h1 {
+.dropdown-content .marvel {
+  font-family: "Marvel";
+  font-size: 40px;
+  padding: 5px 0px 0px 0px;
+  border-radius: 0px 10px 0px 0px;
+}
+.dropdown-content .marvel:hover {
   color: white;
-  padding: 50px;
+  background-color: red;
+}
+
+.dropdown-content .princess {
+  font-family: "Waltograph";
+  font-size: 33px;
+  padding: 5px 0px 0px 0px;
+}
+.dropdown-content .princess:hover {
+  color: white;
+  background-color: hotpink;
+}
+
+.dropdown-content .starwars {
+  font-family: "Star-jedi";
+  font-size: 23px;
+  padding: 0px 0px 5px 0px;
+}
+.dropdown-content .starwars:hover {
+  color: white;
+  background-color: black;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.banner #Disney {
   font-family: "Walter";
+  margin: 0;
+  padding: 100px 0px;
+  height: 70vh;
   font-size: 600%;
   font-weight: lighter;
   text-align: center;
@@ -123,6 +155,24 @@ button {
 @font-face {
   font-family: Walter;
   src: url("fonts/Walter-zrol.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Action-man;
+  src: url("fonts/Action_Man.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Baloo;
+  src: url("fonts/Baloo-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Star-jedi;
+  src: url("fonts/Starjedi.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
